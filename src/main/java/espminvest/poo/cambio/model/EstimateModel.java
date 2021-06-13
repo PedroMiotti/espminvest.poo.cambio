@@ -18,9 +18,9 @@ public class EstimateModel {
     private int id;
     @Column(name = "currency_id")
     private int currencyId;
-    @Column(name = "currency_value")
+    @Column(name = "estimate_value")
     private Double value;
-    @Column(name = "currency_date")
+    @Column(name = "estimate_date")
     private Date date;
 
     public EstimateModel(){}
